@@ -1,0 +1,35 @@
+.place__paragraph {
+  margin: 0;
+  margin-block: 0;
+  margin-inline: 0;
+  color: #fff;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: 400;
+  max-width: 484px;
+}
+
+.place__paragraph:not(:last-of-type) {
+  padding-bottom: 26px;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    max-width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraph {
+    max-width: 352px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 288px;
+    padding: 0 16px;
+  }
+}

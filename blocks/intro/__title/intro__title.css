@@ -1,0 +1,29 @@
+.intro__title {
+  margin-block: 0;
+  margin-inline: 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  width: 690px;
+  height: 58px;
+  margin: 92px 0 0 0;
+  text-align: start;
+  color: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__title {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    width: calc(100% - 32px);
+    min-width: 288px;
+    height: fit-content;
+    margin-top: 64px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

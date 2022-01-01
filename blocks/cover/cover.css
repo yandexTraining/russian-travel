@@ -1,0 +1,27 @@
+.cover {
+  display: grid;
+  grid-template-columns: minmax(320px, 1184px);
+  grid-template-areas: "cvr";
+  justify-content: center;
+  place-items: center;
+  margin: 92px auto 0;
+  height: fit-content;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+  transition: opacity .3s ease;
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 66px;
+  }
+}

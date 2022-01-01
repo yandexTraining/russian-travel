@@ -1,0 +1,25 @@
+.header__lang-link {
+  margin-block: 0;
+  margin-inline: 0;
+  margin-left: 18px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+}
+
+.header__lang-link:first-of-type {
+  text-decoration: underline;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+  transition: opacity .3s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,37 @@
+.photo-grid {
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 92px;
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(3, 213px);
+  gap: 16px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 225px);
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    padding-top: 88px;
+    grid-template-columns: repeat(2, 352px);
+    grid-template-rows: repeat(4, 264px);
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    padding-top: 64px;
+    grid-template-columns: repeat(1, 288px);
+    grid-template-rows: repeat(12, 216px);
+    gap: 12px;
+  }
+}

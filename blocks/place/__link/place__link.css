@@ -1,0 +1,29 @@
+.place__link {
+  margin: 0;
+  margin-block: 0;
+  margin-inline: 0;
+  color: #fff;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  max-width: 456px;
+}
+
+.place__link:hover {
+  opacity: .8;
+  transition: opacity .3s;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__link {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__link {
+    max-width: 288px;
+    padding: 0 16px;
+  }
+}
