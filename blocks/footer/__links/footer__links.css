@@ -5,17 +5,6 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1279px) {
-  .footer__links {
-    margin-left: 48px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .footer__links {
-    margin-left: 24px;
-  }
-}
 
 @media screen and (max-width: 767px) {
   .footer__links {

@@ -9,21 +9,17 @@
   line-height: 170%;
   font-weight: 400;
   letter-spacing: 2px;
-  max-height: 12px;
-  max-width: 456px;
 }
 
 @media screen and (max-width: 1023px) {
   .place__url-heading {
-    max-width: 352px;
     line-height: 12px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__url-heading {
-    max-width: 288px;
     line-height: 12px;
-    padding: 0 16px;
+    padding-left: 16px;
   }
 }

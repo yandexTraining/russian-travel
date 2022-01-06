@@ -8,13 +8,11 @@
   font-weight: 400;
   text-align: center;
   margin: 32px auto 0;
-  height: 66px;
-  width: 360px;
+  max-width: 360px;
 }
 
 @media screen and (max-width: 767px) {
   .cover__subtitle {
-    min-height: 48px;
     max-width: 288px;
     margin-top: 16px;
     font-size: 14px;

@@ -4,8 +4,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
-  width: 690px;
-  height: 208px;
+  max-width: 690px;
   margin: 40px 0 0 0;
   text-align: start;
   color: #fff;
@@ -13,14 +12,12 @@
 
 @media screen and (max-width: 1023px) {
   .intro__text {
-    width: 720px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__text {
-    width: calc(100% - 32px);
-    min-width: 288px;
-    height: fit-content;
+    max-width: 100%;
   }
 }

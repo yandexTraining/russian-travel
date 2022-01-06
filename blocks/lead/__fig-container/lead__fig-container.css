@@ -1,0 +1,27 @@
+.lead__fig-container {
+  margin-block: 0;
+  margin-inline: 0;
+  margin: 0 auto;
+  max-width: 984px;
+  padding-top: 64px;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__fig-container {
+    padding-top: 56px;
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__fig-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__fig-container {
+    max-width: 100%;
+    padding-top: 40px;
+  }
+}

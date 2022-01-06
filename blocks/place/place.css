@@ -33,7 +33,8 @@
     "lnk"
     "img"
     "prg";
-    gap: 50px;
+    row-gap: 32px;
+    column-gap: 0;
     padding-top: 50px;
   }
 }

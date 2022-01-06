@@ -9,21 +9,13 @@
   font-weight: 900;
   text-align: center;
   margin: 0 auto;
-  min-height: 152px;
   max-width: 560px;
-  text-decoration: none;
-}
-
-.cover__title:hover {
-  opacity: .8;
-  transition: opacity .3s;
 }
 
 @media screen and (max-width: 767px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    min-height: 70px;
     max-width: 250px;
   }
 }

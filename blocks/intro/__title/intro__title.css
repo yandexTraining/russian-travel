@@ -4,8 +4,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  width: 690px;
-  height: 58px;
+  max-width: 690px;
   margin: 92px 0 0 0;
   text-align: start;
   color: #fff;
@@ -19,9 +18,7 @@
 
 @media screen and (max-width: 767px) {
   .intro__title {
-    width: calc(100% - 32px);
-    min-width: 288px;
-    height: fit-content;
+    max-width: 100%;
     margin-top: 64px;
     font-size: 32px;
     line-height: 35px;
